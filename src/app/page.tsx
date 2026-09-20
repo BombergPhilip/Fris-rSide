@@ -1,10 +1,12 @@
 import { BookingForm } from "@/components/BookingForm";
 
 const services = [
-  { number: "01", title: "Herreklip", description: "Klassisk klip med saks og maskine, vask, styling og personlig rådgivning.", price: "250 kr.", duration: "30 min." },
-  { number: "02", title: "Skin fade", description: "Skarpe overgange fra helt kort til din ønskede længde med ren finish.", price: "300 kr.", duration: "45 min." },
-  { number: "03", title: "Klip & skæg", description: "Herreklip kombineret med trimning, skarpe kanter og styling af skægget.", price: "350 kr.", duration: "60 min." },
-  { number: "04", title: "Skægtrim", description: "Form, kanter og trimning, så skægget sidder skarpt og passer til ansigtet.", price: "150 kr.", duration: "20 min." },
+  { number: "01", title: "Herreklip", description: "Klipning med voksbehandling af næse, øre og øjenbryn.", price: "180 kr.", duration: "ca. 30 min" },
+  { number: "02", title: "Herreklip & skæg", description: "Klipning, skægtrim samt voksbehandling af næse, øre og øjenbryn.", price: "250 kr.", duration: "ca. 30 min" },
+  { number: "03", title: "Skægtrim", description: "Skægklipning eller trimming med skarpe kanter og en ren finish.", price: "100 kr.", duration: "ca. 30 min" },
+  { number: "04", title: "Full Service", description: "Klipning, hårvask og skægtrim eller skægklipning med voksbehandling af næse, øre og øjenbryn.", price: "250 kr.", duration: "ca. 30 min" },
+  { number: "05", title: "Børneklip", description: "Klipning til børn under 12  år, tilpasset den ønskede stil.", price: "150 kr.", duration: "ca. 30 min" },
+  { number: "06", title: "Pensionistklip", description: "Klassisk klipning med tid og omhu.", price: "150 kr.", duration: "ca. 30 min" },
 ];
 
 export default function Home() {

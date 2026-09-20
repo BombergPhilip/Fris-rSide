@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from "react";
 
-const services = ["Herreklip", "Skin fade", "Klip & skæg", "Skægtrim"];
+const services = ["Herreklip", "Herreklip & skæg", "Skægtrim", "Full Service", "Børneklip", "Pensionistklip"];
 
 export function BookingForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
